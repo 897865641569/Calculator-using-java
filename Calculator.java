@@ -17,7 +17,7 @@ import java.util.Scanner;
 	        
 
 	        System.out.println("Enter the option you want to perform operation :");
-	        System.out.println("Addition: 1 ,Substraction :2, Multiplication :3 , Division:4");
+	        System.out.println("Addition: 1 ,Substraction :2, Multiplication :3 , modulus:4 , Division:5");
 	         int option = sc.nextInt();
 
 	        switch(option) {
@@ -50,4 +50,5 @@ import java.util.Scanner;
 	        sc.close();
 	    }
 	}
+
 
